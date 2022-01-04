@@ -1,3 +1,6 @@
-n=50
-for i in range(1,n+1):
-    print(i)
+list = eval(input("Enter a list of numbers"))
+l=[]
+for i in list:
+    if i>0:
+        l.append(i)
+print(l)
